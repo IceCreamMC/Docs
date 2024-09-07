@@ -19,12 +19,14 @@ export default defineConfig({
         },
         sidebar: [
             {
-                label: 'Guides',
+                label: 'First Steps',
                 items: [
                     // Each item here is one entry in the navigation menu.
-                    { label: 'Installation', slug: 'guides/installation' },
-                    { label: 'Migration', slug: 'guides/migration' },
-                    { label: 'Requirements', slug: 'guides/requirements'}
+                    { label: 'Installation', slug: 'first-steps/installation' },
+                    { label: 'Migration', slug: 'first-steps/migration' },
+                    { label: 'Requirements', slug: 'first-steps/requirements'},
+                    { label: 'Running Your Server', slug: 'first-steps/running-your-server'},
+                    { label: 'Whats next', slug: 'first-steps/next-steps'}
                 ],
             },
         ],
