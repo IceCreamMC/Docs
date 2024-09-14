@@ -31,4 +31,8 @@ export default defineConfig({
             },
         ],
         }), mdx(), vue(), react(), tailwind(), robotsTxt()],
+    i18n: {
+        defaultLocale: "en",
+        locales: ["de", "en"],
+    }
 });
