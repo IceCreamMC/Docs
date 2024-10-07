@@ -1,7 +1,8 @@
 ---
-title: Whats Next
-description: The next steps for your new server
+title: Next Steps
 ---
+
+# Next Steps
 
 Now that you have your server up and running, there are a few things you should do to ensure that your server is running smoothly.
 
@@ -9,14 +10,14 @@ Now that you have your server up and running, there are a few things you should 
 
 One of the first things you should do is ensure your server is configured to your specifications.
 IceCream is highly configurable, and you can change many settings to suit your needs.
-Please see IceCream Configuration, [Paper Configuration](https://docs.papermc.io/paper/reference/configuration), [Purpur Configuration](https://purpurmc.org/docs/purpur/configuration/) and [Pufferfish Configuration](https://docs.pufferfish.host/setup/pufferfish-fork-configuration/).
+Please see the docs of the config you want to know more about.
 
 ## Plugins
 
-One of the main reasons to use IceCream is to take advantage of the many plugins which make use of our expansive API most of which are from Purpur and PaperMC's.
+One of the main reasons to use IceCream is to take advantage of the many plugins which make use of our expansive API.
 Ensure you fully trust the source of any plugin before installing it.
 
-::: danger
+:::danger
 Plugins are given **full and unrestricted** access to not only your server but also the machine that it runs on.
 Because of this, it is imperative that plugins only be installed from trusted sources. Be careful!
 :::
@@ -35,6 +36,12 @@ Permissions are a way to control what players can and cannot do on your server. 
 to restrict who can use certain commands, or who can access certain areas of your server. It is
 common for plugins to use permissions to control who can use their features. You can use permission
 plugins such as [LuckPerms](https://luckperms.net) to manage the permissions which players will be granted.
+
+### Protocols
+
+IceCream provides support for a number of protocols that are used to communicate with mods on the client to enhance the experience.
+They may expose content that you do not wish to make public.
+So before turning on protocol support, please understand the corresponding functionality.
 
 ## Backups
 
@@ -58,4 +65,4 @@ to do it for your IceCream server.
 ## Troubleshooting
 
 If you encounter any issues with your server, you can come and
-ask for help in our [Discord](https://discord.icecreammc.xyz) server!
+ask for help in our [Discord](https://discord.gg/icmc) server!

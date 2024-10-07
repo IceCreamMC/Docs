@@ -1,0 +1,20 @@
+pancakse:
+  name: Pancakse
+  title: IceCream Team | Head
+  url: https://github.com/Pan-cakse
+  image_url: https://github.com/Pan-cakse.png
+  page: true
+  socials:
+    x: pancakse
+    github: Pan-cakse
+
+freeze:
+  name: Freeze
+  title: IceCream Team | Dev
+  url: https://github.com/Im-freeze
+  image_url: https://github.com/Im-frezze.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/all-freeze-articles'
+  socials:
+    github: Im-freeze
